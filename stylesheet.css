@@ -1,0 +1,245 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Manrope:400,700,500,600");
+
+:root {
+  --black: #000000;
+  --shuttle-gray: #596b7b;
+  --black-pearl: #041627;
+  --white: #ffffff;
+  --azure-radiance: #0081f8;
+  --heliotrope: #cc60ff;
+  --manatee: #9ba2a9;
+  --lily-white: #e7f3ff;
+  --white-pointer: #fcf5ff;
+  --font-size-xs: 16px;
+  --font-size-m: 20px;
+  --font-size-xs2: 14px;
+  --font-size-xxl: 40px;
+  --font-size-l: 22px;
+  --font-size-xxs: 12px;
+  --font-size-xxl: 64px;
+  --font-family-manrope: "Manrope", Helvetica;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.testimonial {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: -49px;
+  margin-top: 100px;
+  min-height: 579px;
+  padding: 0 10px 10px 20px;
+  width: auto;
+}
+
+.tag-3 {
+  align-items: center;
+  background-color: #FCF5FF;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  margin-left: 125px;
+  min-width: 168px;
+  padding: 0 20px;
+}
+
+.medal {
+  align-items: flex-start;
+  display: flex;
+  height: 24px;
+  padding: 1.5px 4.4px;
+  width: 24px;
+}
+
+.vector {
+  height: 18px;
+  width: 14px;
+}
+
+.testimonials {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-left: 8px;
+  min-height: 24px;
+  min-width: 96px;
+  white-space: nowrap;
+}
+
+.manrope-medium-heliotrope-16px {
+  color: var(--heliotrope);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.overlap-group1 {
+  align-self: flex-end;
+  height: 517px;
+  margin-top: 24px;
+  position: relative;
+  width: 1385px;
+}
+
+.manrope-normal-shuttle-gray-20px {
+  color: var(--shuttle-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.description-4 {
+  left: 105px;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  top: 68px;
+  width: 652px;
+}
+
+.manrope-semi-bold-black-pearl-40px {
+  color: #041627;
+  font-family: 'Manrope';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.title-7 {
+  display: flex;
+  height: 48px;
+  left: 105px;
+  letter-spacing: 0;
+  line-height: 48px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.overlap-group-2 {
+  height: 517px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1385px;
+}
+
+.ornamen {
+  height: 300px;
+  left: 0;
+  position: absolute;
+  top: 217px;
+  width: 1194px;
+}
+
+.approval {
+  align-items: flex-start;
+  display: flex;
+  height: 100px;
+  left: 105px;
+  min-width: 632px;
+  position: absolute;
+  top: 196px;
+}
+
+.years-of-experiences {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  min-height: 100px;
+  width: 194px;
+}
+
+.years-of-experiences-1 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 16px;
+  min-height: 28px;
+  white-space: nowrap;
+}
+
+.manrope-semi-bold-black-pearl-48px {
+  color: var(--black-pearl);
+  font-family: var(--font-family-manrope);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.number {
+  letter-spacing: 0;
+  line-height: 56px;
+  min-height: 56px;
+  white-space: nowrap;
+}
+
+.travel-success {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 100px;
+  width: 170px;
+}
+
+.text-2 {
+  letter-spacing: 0;
+  line-height: 56px;
+  min-height: 56px;
+  white-space: nowrap;
+}
+
+.successfull-travel {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 16px;
+  min-height: 28px;
+  white-space: nowrap;
+}
+
+.clients {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  min-height: 100px;
+  width: 152px;
+}
+
+.text-1 {
+  letter-spacing: 0;
+  line-height: 56px;
+  min-height: 56px;
+  white-space: nowrap;
+}
+
+.happy-clients {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 16px;
+  min-height: 28px;
+  white-space: nowrap;
+}
+
+.image {
+  height: 515px;
+  left: 866px;
+  position: absolute;
+  top: 0;
+  width: 519px;
+}
